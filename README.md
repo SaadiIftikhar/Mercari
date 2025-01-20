@@ -1,90 +1,98 @@
-Mercari Playwright Testing Repository
-d
-Welcome to the Mercari Playwright Testing Repository. This README will guide you through downloading and installing the required tools, running tests, and generating reports.
-Table of Contents
+# Mercari Playwright Tests
 
-    Downloading and Installing Git
-    Cloning the Repository
-    Installing Playwright and Prerequisites
-    Running Playwright Tests
-    Uploading Test Case Run Videos
-    Demonstration Videos
+This repository contains Playwright tests for the Expo https://expo.dev/ React-Native website.
 
-Downloading and Installing Git
-Step 1: Download Git
+## Prerequisites
 
-    Visit Git's official website.
-    Click on the download button suitable for your operating system (Windows, macOS, Linux).
+* Git
+* Node.js and npm (or yarn)
 
-Step 2: Install Git
+## Installation
 
-    Follow the installation instructions provided for your operating system.
+### Git
 
-Step 3: Verify Installation
+1. Download and install Git from the official website: https://git-scm.com/downloads.
+2. Verify the installation by running `git --version` in your terminal. This should print the installed Git version.
+3. You can also download files directly from github repo https://github.com/SaadiIftikhar/Mercari.git.
 
-    Open a terminal or command prompt.
-    Run the following command to verify Git installation:
+### Node.js and npm
 
-    git --version
+1. Download and install Node.js from the official website: https://nodejs.org/
+2. npm (Node Package Manager) will be bundled with your Node.js installation. Verify the installation by running `npm -v` in your terminal. This should print the installed npm version.
 
-    This should display the installed Git version.
+## Setting Up Playwright
 
-Cloning the Repository
+1. Clone this repository using Git:
 
-Once Git is installed, you can clone this repository using the following steps:
+```bash
+git clone https://github.com/SaadiIftikhar/Mercari.git
+```
 
-    Open a terminal or command prompt.
-    Navigate to the directory where you want to clone the repository.
-    Run the command:
+Navigate to the Project Directory:
 
-    git clone https://github.com/SaadiIftikhar/Mercari.git
+```bash
+cd Mercari
+```
 
-This will create a local copy of the repository on your machine.
-Installing Playwright and Prerequisites
-Step 1: Install Node.js
+## Running Tests
+Once you are in the Mercari directory, you will be able to run these tests
 
-    Visit Node.js official website.
-    Download and install the LTS version of Node.js suitable for your operating system.
+1. Running tests in headless format
 
-Step 2: Install Playwright
-
-    Open a terminal or command prompt.
-    Navigate to the cloned repository's directory.
-    Run the following command to install Playwright:
-
-    npm install playwright
-
-Running Playwright Tests
-
-You can run the Playwright tests using the following commands:
-Headless Run
-
-To execute tests in headless mode:
-
+```bash
 npx playwright test --reporter=line
+```
 
-Report Generation
+2. Running tests through UI
 
-To generate an HTML report of the test results:
-
-npx playwright test --reporter=html
-
-Show Report
-
-To display the generated HTML report:
-
-npx playwright show-report
-
-Non-Headless Run
-
-To run tests with the UI (non-headless mode):
-
+```bash
 npx playwright test --ui
+```
 
-Uploading Test Case Run Videos
+3. Report generation
 
-You will upload videos demonstrating the execution of six test cases. These videos will be included in this repository to provide a visual understanding of the tests.
-Demonstration Videos
+```bash
+npx playwright test --reporter=html
+```
 
-    Headless Run Video: A video showcasing the headless run of the tests.
-    Report Generation Video: A video demonstrating the report generation and viewing process.
+4. See the report 
+```bash
+npx playwright show-report
+```
+
+## Videos of test runs through UI
+
+Here’s the list of test cases numbered as you requested:
+
+1. First test case
+
+https://github.com/user-attachments/assets/48cb5106-2f95-45c5-b243-50e677c90043
+
+2. Second test case
+
+https://github.com/user-attachments/assets/b4f69bc4-3684-4256-b11c-4f55bcea3905
+
+
+3. Third test case
+
+https://github.com/user-attachments/assets/4113a096-2456-4a9a-ac4d-2f04fd6d2113
+
+
+4. Fourth test case
+
+https://github.com/user-attachments/assets/4f3254bc-aaf3-41b7-bfd6-ea3eeb99204a
+
+
+5. Fifth test case
+
+https://github.com/user-attachments/assets/affb5a9f-db46-48c9-a1f7-6dd6007f2a20
+
+
+6. Sixth test case
+
+https://github.com/user-attachments/assets/214cd82a-b836-438f-87db-b211961c3172
+
+## Videos of headless run and report
+
+
+
