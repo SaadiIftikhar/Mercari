@@ -77,7 +77,7 @@ npx playwright show-report
 
 The report can also be found in the playwright-report folder, the report file name will be index.html
 
-## Videos of test runs through UI
+## Videos Of Test Runs Through UI
 
 Here’s the list of test cases numbered as you requested:
 
@@ -109,7 +109,7 @@ https://github.com/user-attachments/assets/affb5a9f-db46-48c9-a1f7-6dd6007f2a20
 
 https://github.com/user-attachments/assets/214cd82a-b836-438f-87db-b211961c3172
 
-## Generated report example
+## Generated Report Example
 
   ![Image](https://github.com/user-attachments/assets/9944e587-b83d-414e-a24e-24631b92f5d4)
 
