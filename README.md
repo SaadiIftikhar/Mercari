@@ -93,7 +93,7 @@ https://github.com/user-attachments/assets/affb5a9f-db46-48c9-a1f7-6dd6007f2a20
 
 https://github.com/user-attachments/assets/214cd82a-b836-438f-87db-b211961c3172
 
-## Generated report Example
+## Generated Rrport example
 
   ![Image](https://github.com/user-attachments/assets/9944e587-b83d-414e-a24e-24631b92f5d4)
 
