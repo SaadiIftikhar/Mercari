@@ -81,31 +81,31 @@ The report can also be found in the playwright-report folder, the report file na
 
 Here’s the list of test cases numbered as you requested:
 
-1. First test case
+1. Verification of Sign Up checks
 
 https://github.com/user-attachments/assets/48cb5106-2f95-45c5-b243-50e677c90043
 
-2. Second test case
+2. Verification of second tab
 
 https://github.com/user-attachments/assets/b4f69bc4-3684-4256-b11c-4f55bcea3905
 
 
-3. Third test case
+3. Verification of API status and body elements
 
 https://github.com/user-attachments/assets/4113a096-2456-4a9a-ac4d-2f04fd6d2113
 
 
-4. Fourth test case
+4. Verification of hover action
 
 https://github.com/user-attachments/assets/4f3254bc-aaf3-41b7-bfd6-ea3eeb99204a
 
 
-5. Fifth test case
+5. Verification of UI using screenshot comparison
 
 https://github.com/user-attachments/assets/affb5a9f-db46-48c9-a1f7-6dd6007f2a20
 
 
-6. Sixth test case
+6. Verification of Landing page though element visibility and URL check
 
 https://github.com/user-attachments/assets/214cd82a-b836-438f-87db-b211961c3172
 
