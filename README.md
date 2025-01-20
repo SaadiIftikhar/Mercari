@@ -16,6 +16,7 @@ This repository contains Playwright tests for the Expo https://expo.dev/ React-N
 3. You can also download files directly from github repo https://github.com/SaadiIftikhar/Mercari.git.
 
 ### Node.js and npm
+[Uploading index.html…]()
 
 1. Download and install Node.js from the official website: https://nodejs.org/
 2. npm (Node Package Manager) will be bundled with your Node.js installation. Verify the installation by running `npm -v` in your terminal. This should print the installed npm version.
@@ -92,7 +93,9 @@ https://github.com/user-attachments/assets/affb5a9f-db46-48c9-a1f7-6dd6007f2a20
 
 https://github.com/user-attachments/assets/214cd82a-b836-438f-87db-b211961c3172
 
-## Videos of headless run and report
+## Generated report Example
+
+  ![Image](https://github.com/user-attachments/assets/9944e587-b83d-414e-a24e-24631b92f5d4)
 
 
 
