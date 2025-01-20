@@ -2,10 +2,14 @@
 
 This repository contains Playwright tests for the Expo https://expo.dev/ React-Native website.
 
-## Prerequisites
+## System requirements / Prerequisites
 
 * Git
-* Node.js and npm (or yarn)
+* Node.js 18+
+* Windows 10+, Windows Server 2016+ or Windows Subsystem for Linux (WSL).
+* macOS 13 Ventura, or later.
+* Debian 12, Ubuntu 22.04, Ubuntu 24.04, on x86-64 and arm64 architecture.
+
 
 ## Installation
 
@@ -17,7 +21,7 @@ This repository contains Playwright tests for the Expo https://expo.dev/ React-N
 
 ### Node.js and npm
 
-1. Download and install Node.js minimum `Node.js 18+` from the official website: https://nodejs.org/
+1. Download and install Node.js `Node.js 18+` from the official website: https://nodejs.org/
 2. npm (Node Package Manager) will be bundled with your Node.js installation. Verify the installation by running `npm -v` in your terminal. This should print the installed npm version.
 
 ## Setting Up Playwright
