@@ -17,7 +17,7 @@ This repository contains Playwright tests for the Expo https://expo.dev/ React-N
 
 ### Node.js and npm
 
-1. Download and install Node.js minimum 'Node.js 18+' from the official website: https://nodejs.org/
+1. Download and install Node.js minimum `Node.js 18+` from the official website: https://nodejs.org/
 2. npm (Node Package Manager) will be bundled with your Node.js installation. Verify the installation by running `npm -v` in your terminal. This should print the installed npm version.
 
 ## Setting Up Playwright
