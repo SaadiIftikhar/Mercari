@@ -42,6 +42,9 @@ class secondTabPage {
       context.waitForEvent('page'), // Wait for the new tab to open
       this.linkText.click(),        // Trigger the click action
     ]);
+
+    // Wait for the new tab to load fully by waiting for a specific element or network idle
+    await newTab.waitForLoadState('domcontentloaded'); // or 'networkidle'
     return newTab; // Return the new tab
   }
 
