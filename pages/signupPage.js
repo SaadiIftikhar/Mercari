@@ -39,30 +39,32 @@ class signupPage {
   // Assertions
   // Check if the signup button is disabled
   async verifySignupButtonDisabled() {
+    await expect(this.signupLink).toBeVisible(); // Ensure it's visible before checking the state
     await expect(this.signupLink).toBeDisabled();
   }
 
   // Check if the signup button is enabled
   async verifySignupButtonEnabled() {
+    await expect(this.signupLink).toBeVisible(); // Ensure it's visible before checking the state
     await expect(this.signupLink).toBeEnabled();
   }
 
-  // Verify error messages for missing required fields
+   // Verify error messages for missing required fields
   async verifyErrorMessagesForMissingFields() {
-    await expect(this.page.locator('text=Email is a required field.')).toBeVisible();
-    await expect(this.page.locator('text=Username is a required field.')).toBeVisible();
+    await expect(this.page.getByText('Email is a required field.', { exact: true })).toBeVisible();
+    await expect(this.page.getByText('Username is a required field.', { exact: true })).toBeVisible();
     await expect(this.page.getByText('Password is a required field.', { exact: true })).toBeVisible();
-    await expect(this.page.getByText('Confirm password is a')).toBeVisible();
+    await expect(this.page.getByText('Confirm password is a ')).toBeVisible();
   }
 
   // Verify email validation error
   async verifyEmailValidationError() {
-    await expect(this.page.locator('text=Email must be a valid email.')).toBeVisible();
+    await expect(this.page.getByText('Email must be a valid email.', { exact: true })).toBeVisible();
   }
 
   // Verify password length validation error
   async verifyPasswordLengthError() {
-    await expect(this.page.locator('text=Password must be at least 8 characters.')).toBeVisible();
+    await expect(this.page.getByText('Password must be at least 8 characters.', { exact: true })).toBeVisible();
   }
 
   // Verify that the "Username is a required field" message is not visible
